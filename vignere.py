@@ -24,8 +24,8 @@ def decrypt(cipher_text, key):
 	return("" . join(orig_text))
 	
 if __name__ == "__main__":
-	string = "CRYPTOGRAPHY"
-	keyword = "ANURAG"
+	string = "HELLO"
+	keyword = "WORLD"
 	key = generateKey(string, keyword)
 	cipher_text = encrypt(string,key)
 	print("Ciphertext :", cipher_text)
